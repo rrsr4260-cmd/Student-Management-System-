@@ -1,0 +1,53 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Segoe UI",Arial,sans-serif;background:linear-gradient(135deg,#0f172a,#1e293b,#334155);color:#f8fafc;min-height:100vh}
+.page{display:grid;grid-template-columns:280px 1fr;min-height:100vh}
+.sidebar{padding:24px;background:rgba(15,23,42,.92);border-right:1px solid rgba(255,255,255,.08);box-shadow:10px 0 30px rgba(0,0,0,.25)}
+.brand h1{font-size:28px;margin-bottom:8px}
+.brand p{color:#94a3b8;margin-bottom:8px}
+.side-card{background:linear-gradient(145deg,rgba(255,255,255,.10),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px;margin-bottom:18px;box-shadow:0 8px 20px rgba(0,0,0,.28)}
+.side-card h3{margin-bottom:12px;color:#38bdf8}
+.main-content{padding:28px}
+.hero{margin-bottom:22px;padding:24px;border-radius:24px;background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.05));box-shadow:0 12px 30px rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.08)}
+.hero h2{font-size:34px;margin-bottom:8px}
+.hero p{color:#cbd5e1}
+.card{background:rgba(255,255,255,.08);border-radius:24px;padding:24px;margin-bottom:24px;border:1px solid rgba(255,255,255,.08);box-shadow:0 15px 35px rgba(0,0,0,.25);backdrop-filter:blur(10px)}
+.card h3{font-size:22px;margin-bottom:18px}
+.form-grid,.chart-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
+.form-group{margin-bottom:14px}
+.form-group label{display:block;margin-bottom:7px;font-weight:600;color:#e2e8f0}
+.form-group input,.form-group select{width:100%;padding:13px 14px;border-radius:14px;border:none;outline:none;background:rgba(255,255,255,.12);color:white;box-shadow:inset 2px 2px 8px rgba(0,0,0,.22)}
+.btn{display:inline-block;text-decoration:none;padding:12px 18px;border-radius:14px;border:none;cursor:pointer;color:white;font-weight:700;box-shadow:0 8px 18px rgba(0,0,0,.24);transition:.25s ease}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.05)}
+.btn-primary{background:linear-gradient(135deg,#2563eb,#38bdf8)}
+.btn-success{background:linear-gradient(135deg,#16a34a,#22c55e)}
+.btn-warning{background:linear-gradient(135deg,#d97706,#f59e0b)}
+.btn-danger{background:linear-gradient(135deg,#dc2626,#ef4444)}
+.btn-dark{background:linear-gradient(135deg,#334155,#475569)}
+.full-btn{width:100%;text-align:center}
+.mb{margin-bottom:10px}
+.small-btn{padding:8px 12px;font-size:13px}
+.alert{padding:14px 18px;border-radius:16px;margin-bottom:20px;font-weight:600}
+.alert-success{background:rgba(34,197,94,.18);border:1px solid rgba(34,197,94,.35)}
+.alert-error{background:rgba(239,68,68,.18);border:1px solid rgba(239,68,68,.35)}
+.table-header{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:18px}
+.search-form{display:flex;gap:10px;flex-wrap:wrap}
+.search-form input{min-width:280px;padding:12px 14px;border-radius:12px;border:none;background:rgba(255,255,255,.12);color:white}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;border-radius:18px;overflow:hidden}
+thead{background:rgba(15,23,42,.85)}
+th,td{padding:14px;text-align:left;border-bottom:1px solid rgba(255,255,255,.07);font-size:14px}
+tbody tr:hover{background:rgba(255,255,255,.06)}
+.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.inline-form{display:inline}
+.no-data{text-align:center;color:#cbd5e1;padding:24px}
+.student-photo{width:48px;height:48px;object-fit:cover;border-radius:50%;border:2px solid rgba(255,255,255,.2)}
+.pagination{margin-top:18px;display:flex;gap:8px;flex-wrap:wrap}
+.page-link{padding:8px 12px;border-radius:10px;background:rgba(255,255,255,.10);color:#fff;text-decoration:none}
+.page-link.active{background:#2563eb}
+.mini-list{margin-top:16px;display:grid;gap:8px;color:#e2e8f0}
+.login-body{display:flex;justify-content:center;align-items:center}
+.login-box{width:100%;max-width:430px;padding:30px;background:rgba(255,255,255,.08);border-radius:24px;box-shadow:0 15px 35px rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.08)}
+.login-box h1{text-align:center;margin-bottom:10px}
+.sub{color:#cbd5e1;text-align:center;margin-bottom:18px}
+.mt{margin-top:16px}
+@media (max-width:980px){.page{grid-template-columns:1fr}.sidebar{border-right:none;border-bottom:1px solid rgba(255,255,255,.08)}}
